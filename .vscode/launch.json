@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "runserver",
+            "type": "debugpy",
+            "request": "launch",
+            "django": true,
+            "autoStartBrowser": false,
+            "justMyCode": false,
+            "program": "${workspaceFolder}\\manage.py",
+            "args": [
+                "runserver"
+            ],
+            "presentation": {
+                "group": "@1"
+            }
+        },
+    ]
+}
