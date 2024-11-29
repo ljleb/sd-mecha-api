@@ -16,4 +16,4 @@ class ModelConfigView(ApiView):
         except Exception as e:
             return Response('Bad request', 400)
 
-        return Response({'yaml': config}, 200)
+        return Response({'yaml': config.value}, 200)
